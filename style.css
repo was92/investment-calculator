@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    margin-top: 40px;
+    background-color: #444;
+    padding: 40px; /* Increased padding inside the panel */
+    border-radius: 8px;
+    width: 350px; /* Increased width of the panel */
+    text-align: center;
+}
+
+label, p {
+    text-align: left;
+    margin-bottom: 8px; /* Added bottom margin for labels */
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 12px; /* Increased padding inside input fields */
+    margin: 10px 0 20px; /* Increased bottom margin for input fields */
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid #4CAF50;
+}
+
+.reset-button {
+    background-color: #888; /* Subdued color */
+    color: #fff;
+}
+
+.reset-button:hover {
+    background-color: #fff;
+    color: #888;
+    border: 1px solid #888;
+}
+
+
+.interest-rate-control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0 20px; /* Increased bottom margin */
+}
+
+.interest-rate {
+    font-size: 1.5em;
+    flex-grow: 2;
+    text-align: center;
+}
+
+.adjust-rate {
+    background-color: #888; /* Subdued color */
+    color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0;
+}
+
+.adjust-rate:hover {
+    background-color: #fff;
+    color: #888;
+    border-color: #fff;
+}
